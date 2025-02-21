@@ -1,0 +1,13 @@
+country-dashboard-v1/
+├── pages/
+│   ├── index.js
+│   └── api/
+│       └── data/
+│           └── [country].js
+├── public/
+│   └── styles.css
+├── components/
+│   └── Dashboard.js
+├── package.json
+└── README.md
+

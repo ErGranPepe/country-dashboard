@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Dashboard v0</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Country Dashboard v0</h1>
+        <select id="countrySelect">
+            <option value="USA">United States</option>
+            <option value="GBR">United Kingdom</option>
+            <option value="DEU">Germany</option>
+            <option value="JPN">Japan</option>
+        </select>
+        <div class="dashboard">
+            <div class="chart-container">
+                <canvas id="populationChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="gdpChart"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
